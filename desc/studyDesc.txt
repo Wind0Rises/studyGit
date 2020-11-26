@@ -1,0 +1,14 @@
+一、基本命令
+	1、checkout
+		无								
+		直接切换分支【已经存在分支】
+		
+		-b 	newBranch [<start_point>]	
+		创建一个名为newBranch的新分支,如果指定了<start_point>，那么新的分支将指向<start_point>，否则新的分支指向当前的HEAD.
+		
+
+
+
+1、rebase
+
+2、跳转到某个版本
