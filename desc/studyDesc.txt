@@ -1,12 +1,18 @@
 一、基本命令
-	1、checkout
-		无								
-		直接切换分支【已经存在分支】
+	1、branch
+		分支操作。
+			无：查询本地全部分支。
+			-a : 查询本地与远程的所有分支。
+			-d branchName：删除本地分支，如果分支不存在，就直接报错。
+			-D branchName：强制删除本地分支。
+			【删除远程】 git push origin --delete branchNameOfOrigin
+			
+	2、checkout
+		切换分支操作
+			checkout branchName：如果存在branchName分支，则切换到branchName分支上，否则直接报错。
+			-b 	newBranch [<start_point>]：创建一个名为newBranch的新分支,如果指定了<start_point>，那么新的分支将指向<start_point>，否则新的分支指向当前的HEAD.
 		
-		-b 	newBranch [<start_point>]	
-		创建一个名为newBranch的新分支,如果指定了<start_point>，那么新的分支将指向<start_point>，否则新的分支指向当前的HEAD.
-		
-
+	3、fetch
 
 
 1、rebase
